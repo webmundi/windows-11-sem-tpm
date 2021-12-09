@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Criado por: Renato Sanches
+; https://www.webmundi.com
+; Post: https://www.webmundi.com/sistema-operacional/windows/como-atualizar-o-windows-10-para-windows-11-gratis-com-ou-sem-tpm-secure-boot/
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig]
+"BypassTPMCheck"=dword:00000001
+"BypassSecureBootCheck"=dword:00000001
+"BypassRAMCheck"=dword:00000001
+"BypassStorageCheck"=dword:00000001
+"BypassCPUCheck"=dword:00000001"
